@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <script src="./index.js" defer></script>
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container_box">
+        <div class="content_box">
+          <div class="content_description">
+            <h1>Stay updated!</h1>
+            <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          </div>
+          <ul class="content_list-items">
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 21 21"
+              >
+                <g fill="none">
+                  <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                  <path
+                    stroke="#FFF"
+                    stroke-width="2"
+                    d="M6 11.381 8.735 14 15 8"
+                  />
+                </g>
+              </svg>
+              <span> Product discovery and building what matters </span>
+            </p>
+
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 21 21"
+              >
+                <g fill="none">
+                  <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                  <path
+                    stroke="#FFF"
+                    stroke-width="2"
+                    d="M6 11.381 8.735 14 15 8"
+                  />
+                </g>
+              </svg>
+              <span>Measuring to ensure updates are a success</span>
+            </p>
+
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 21 21"
+              >
+                <g fill="none">
+                  <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                  <path
+                    stroke="#FFF"
+                    stroke-width="2"
+                    d="M6 11.381 8.735 14 15 8"
+                  />
+                </g>
+              </svg>
+              <span> And much more!</span>
+            </p>
+          </ul>
+          <form class="content_form" id="form">
+            <label for="input">Email address </label>
+            <span id="email_error" style="color: red; margin-left: 14rem"
+              >Valid email required</span
+            >
+            <input id="input" placeholder="ash@loremcompany.com" type="text" />
+            <button>Subscribe to monthly newsletter</button>
+          </form>
+        </div>
+        <div class="img_box">
+          <img
+            src="./assets/images/illustration-sign-up-desktop.svg"
+            class="img"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
